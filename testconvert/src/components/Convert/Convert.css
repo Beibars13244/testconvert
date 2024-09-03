@@ -1,0 +1,51 @@
+.converter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.conversion-row {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.convertsection,
+.convertinput {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.convertsection {
+  background-color: #f9f9f9;
+}
+
+.convertinput {
+  background-color: #fff;
+}
+
+.conversion-row::before,
+.conversion-row::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ddd;
+  margin: 0 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
